@@ -1,9 +1,5 @@
 #include <iostream>
-#include "Triangle.h"
-
-int Square(int a, int h) {
-    return 0.5 * a * h;
-}
+#include "triangle1.h"
 
 int main() {
     std::cout << "Hello world!";
