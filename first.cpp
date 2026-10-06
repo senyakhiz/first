@@ -2,23 +2,20 @@
 #include "triangle1.h"
 
 int main() {
-    std::cout << "Hello world!";
-   
     double a, h;
-    std::cout << "¬ведите сторону и высоту треугольника";
+    std::cout << "Input side and height triangle";
     std::cin >> a;
     std::cin >> h;
-    std::cout << "ѕлощадь треугольника" << Square(a, h);
+    std::cout << "Square triangle" << Square(a, h);
 
     double side, height;
-
-    std::cout << "¬ведите сторону треугольника: ";
+    std::cout << "Input side triangle: ";
     std::cin >> side;
-    std::cout << "¬ведите высоту, проведЄнную к этой стороне: ";
+    std::cout << "Input height triangle: ";
     std::cin >> height;
 
     Triangle t(side, height);
-    std::cout << "ѕлощадь треугольника: " << t.getArea() << std::endl;
+    std::cout << "Square triangle: " << t.getArea() << std::endl;
 
     return 0;
 }
